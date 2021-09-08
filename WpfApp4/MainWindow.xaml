@@ -1,0 +1,121 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="7*"/>
+                </Grid.ColumnDefinitions>
+                <Button Background="Transparent">=</Button>
+                <TextBox Grid.Column="1" Margin="10" Background="LightGray" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">SEARCH
+                </TextBox>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label >Eve Summer</Label>
+                <Label Grid.Row="1" Foreground="Blue" >ONLINE</Label>
+            </Grid>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical">
+                <Grid Height="50" Background="Blue">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                        
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="Brown">
+                        <Label Content="ES" Foreground="White" FontSize="30" Margin="5 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="White" Margin="0 0 0 0">Eva Summer</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="White"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+                    
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+
+                </Grid>
+            </StackPanel>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Background="Blue"></Button>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="1.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Background="Transparent">ICON</Button>
+                    <TextBox Grid.Column="1" Background="LightGray"></TextBox>
+                    <Grid Grid.Column="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button Background="Transparent">ICON</Button>
+                        <Button Background="Transparent" Grid.Column="1">ICON2</Button>
+                    </Grid>
+
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+
+</Window>

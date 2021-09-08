@@ -85,7 +85,106 @@
                         <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
                         <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
                     </Grid>
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
 
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
+                </Grid>
+                <Grid Height="50" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border CornerRadius="25" Height="50" Width="50" HorizontalAlignment="Left" Background="#FDA76C">
+                        <Label Content="AS" Foreground="White" FontSize="30" Margin="0 0 0 0"></Label>
+                    </Border>
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <Label FontSize="13" Foreground="Black" Margin="0 0 0 0">Alexandra Smith</Label>
+                        <Label Grid.Row="1" FontSize="13" Foreground="Gray"  Margin="0 0 0 0">Lorem Ipsum</Label>
+                    </Grid>
                 </Grid>
             </StackPanel>
 
